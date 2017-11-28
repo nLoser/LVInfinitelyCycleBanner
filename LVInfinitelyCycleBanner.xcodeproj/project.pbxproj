@@ -13,6 +13,8 @@
 		A922C2691FCD4FD3000B55B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A922C2681FCD4FD3000B55B2 /* Assets.xcassets */; };
 		A922C26C1FCD4FD3000B55B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A922C26A1FCD4FD3000B55B2 /* LaunchScreen.storyboard */; };
 		A922C26F1FCD4FD3000B55B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A922C26E1FCD4FD3000B55B2 /* main.m */; };
+		A922C2781FCD5038000B55B2 /* LVInfinitelyCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A922C2771FCD5038000B55B2 /* LVInfinitelyCycleView.m */; };
+		A922C27B1FCD51A4000B55B2 /* LVInfinitelyCycleCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A922C27A1FCD51A4000B55B2 /* LVInfinitelyCycleCollectionCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		A922C26B1FCD4FD3000B55B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A922C26D1FCD4FD3000B55B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A922C26E1FCD4FD3000B55B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A922C2761FCD5038000B55B2 /* LVInfinitelyCycleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVInfinitelyCycleView.h; sourceTree = "<group>"; };
+		A922C2771FCD5038000B55B2 /* LVInfinitelyCycleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVInfinitelyCycleView.m; sourceTree = "<group>"; };
+		A922C2791FCD51A4000B55B2 /* LVInfinitelyCycleCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LVInfinitelyCycleCollectionCell.h; sourceTree = "<group>"; };
+		A922C27A1FCD51A4000B55B2 /* LVInfinitelyCycleCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVInfinitelyCycleCollectionCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,7 @@
 		A922C2531FCD4FD3000B55B2 = {
 			isa = PBXGroup;
 			children = (
+				A922C2751FCD5017000B55B2 /* Class */,
 				A922C25E1FCD4FD3000B55B2 /* LVInfinitelyCycleBanner */,
 				A922C25D1FCD4FD3000B55B2 /* Products */,
 			);
@@ -69,6 +76,17 @@
 				A922C26E1FCD4FD3000B55B2 /* main.m */,
 			);
 			path = LVInfinitelyCycleBanner;
+			sourceTree = "<group>";
+		};
+		A922C2751FCD5017000B55B2 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				A922C2761FCD5038000B55B2 /* LVInfinitelyCycleView.h */,
+				A922C2771FCD5038000B55B2 /* LVInfinitelyCycleView.m */,
+				A922C2791FCD51A4000B55B2 /* LVInfinitelyCycleCollectionCell.h */,
+				A922C27A1FCD51A4000B55B2 /* LVInfinitelyCycleCollectionCell.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +162,9 @@
 			files = (
 				A922C2641FCD4FD3000B55B2 /* ViewController.m in Sources */,
 				A922C26F1FCD4FD3000B55B2 /* main.m in Sources */,
+				A922C2781FCD5038000B55B2 /* LVInfinitelyCycleView.m in Sources */,
 				A922C2611FCD4FD3000B55B2 /* AppDelegate.m in Sources */,
+				A922C27B1FCD51A4000B55B2 /* LVInfinitelyCycleCollectionCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T4654Y4Z9R;
 				INFOPLIST_FILE = LVInfinitelyCycleBanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LV.LVInfinitelyCycleBanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T4654Y4Z9R;
 				INFOPLIST_FILE = LVInfinitelyCycleBanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LV.LVInfinitelyCycleBanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
